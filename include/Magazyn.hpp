@@ -408,7 +408,7 @@ public:
                 cout << "Podaj nowa cene > " << nowaCena;
 
                 wpisanyZnak = getch();
-                wpisuje = wpiszDoStringa(&nowaCena, wpisanyZnak, Funkcje::NumeryczneINT);
+                wpisuje = wpiszDoStringa(&nowaCena, wpisanyZnak, Funkcje::Numeryczne);
 
                 if(wpisuje == Cofnij)
                     return -1;
